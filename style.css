@@ -1,0 +1,228 @@
+header {
+     font-family: Lora, serif;
+     font-size: 18px;
+}
+
+/*NAVIGATION BAR*/
+#full-nav {
+     /* position: sticky;
+     top: 0; */
+     background-color: white;
+     font-family: 'Open Sans', sans-serif;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin: 20px 30px;
+}
+.left-side {
+     display: flex;
+     align-items: center;
+}
+.logo {
+  height: 40px; 
+  width: auto;
+}
+.user-nav, .right-side {
+     display: flex;
+     flex-direction: row;
+     margin-left: 30px;
+     gap: 30px;
+}
+.user-nav a, .right-side a {
+     text-decoration: none;
+     color: black;
+}
+.right-side {
+     font-size: 16px;
+     position: absolute;
+     right: 30px;
+     align-items: center;
+}
+.dropdown-nav ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+}
+.studio-menu {
+     position: relative;
+}
+.studio-menu li {
+     align-items: center;
+     gap: 5px;
+     text-decoration: none;
+     color: black;
+     padding: 8px 12px;
+}
+.arrow-icon {
+     width: 18px;
+     height: 18px;
+}
+.studio-menu .dropdown {
+     display: none;
+     position: absolute;
+     top: 100%; /* ngay dưới Studio */
+     left: 0;
+     width: 400px;
+     background-color: white;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+     z-index: 10;
+}
+.studio-menu:hover .dropdown {
+     display: block;
+}
+.dropdown p {
+     font-size: 14px;
+     margin: 0;
+}
+.dropdown li:hover{
+     background-color: rgb(242, 241, 241);
+}
+.foot {
+     background-color: rgb(242, 241, 241);
+     font-family: Lora, serif;
+     font-style: italic;
+}
+.foot a {
+     text-decoration: underline;
+     font-style: normal;
+}
+.login {
+     padding: 5px 15px;
+     border: 1px solid rgb(234, 237, 234);
+     border-radius: 4px;
+}
+.login:hover {
+     background-color: rgb(242, 241, 241); 
+}
+
+div#official-writing {
+     margin: 1em 2em;
+}
+
+/*HEADING*/
+div.heading {
+     font-family: 'Open Sans', sans-serif;
+     margin: auto;
+     margin-top: 200px;
+     margin-bottom: 200px;
+     max-width: 800px;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+div.heading img{
+     width: 100%;
+     max-width: 500px; 
+     margin: 42px 0px;
+}
+div.heading .slogan {
+     margin: 0px 30px;
+     font-size: 2em;
+     max-width: 18em;
+}
+div.heading .start-writing {
+     margin: 50px 0px 0px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+div.heading a {
+     text-decoration: none;
+     color: rgb(20, 20, 239);
+}
+div.heading a.signup:hover {
+     text-decoration: underline;
+}
+div.heading a.start {
+     display: block;
+     border: 1px solid #7278bf;
+     background-color: #7278bf;
+     color: #fff;
+     padding: .5em;
+     font-family: 'Lora', serif;
+     font-size: 1.25em;
+     border-radius: 5px;
+     max-width: fit-content;
+     width: 100%;
+     margin-bottom: 20px;
+}
+div.heading a.start:hover {
+     opacity: 0.7;
+}
+
+div.heading p {
+     text-align: center;
+     font-style: italic;
+}
+
+/*MARKETING SECTION*/
+div.content-container {
+     font-size: 1.15em;
+     margin: 0 auto 3em;
+     max-width: 50em;
+}
+div.content-container .snug {
+     max-width: 50em;
+}
+div.content-container hr {
+     height: 1px;
+     background: #ccc;
+     max-width: 50em;
+     margin: 4em auto;
+     text-align: center;
+}
+div.content-container p {
+     font-family: 'Open Sans', sans-serif;
+     line-height: 1.8em;
+     margin: 1em 0;
+}
+div.content-container h2 {
+     margin-bottom: 0;
+     font-size: 1.98em;
+}
+div.content-container p.bull {
+     margin: 0.25rem 0;
+     font-size: 0.9em;
+}
+div.content-container p a {
+     text-decoration: none;;
+     color: rgb(20, 20, 239);
+}
+div.content-container p a:hover {
+     text-decoration: underline;
+}
+div.clearfix {
+     overflow: auto;
+     display: flex;
+     flex-direction: row;
+}
+div.blurbs .third {
+     padding: 0;
+     font-size: 0.86em;
+     width: calc(33% - 1em);
+     float: left;
+}
+div.blurbs .big {
+     text-align: center;
+     float: none;
+}
+div.blurbs .big:nth-of-type(n+2) {
+     margin-left: 1em;
+}
+div.blurbs .big h3 {
+     font-size: 1.25em;
+     font-weight: 400;
+     margin: 0 0 1.25em;
+     text-align: left;
+}
+div.blurbs .big p {
+     margin-bottom: 0;
+     color: #595959;
+     text-align: left;
+}
+div.writing h2 {
+     margin-top: 2em;
+}

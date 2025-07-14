@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Basic Blog Website</title>
+     <link rel="stylesheet" href="style.css">
+     <!--Font: Lora-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     <!--Font: Open Sans-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     <!--Boostrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+     <header>
+          <!--Navigation bar-->
+          <nav id="full-nav">
+               <div class="left-side">
+                    <a href="https://write.as">
+                         <img src="https://cdn.writeas.net/img/w-sq.svg" alt="logo" class="logo"/>
+                    </a>
+               </div>
+               <div class="user-nav">
+                    <a href="https://write.as/about">
+                         About
+                    </a>
+                    <a href="https://write.as/pricing">
+                         Pricing
+                    </a>
+                    <a href="https://read.write.as/">
+                         Read
+                    </a>
+                    <div class="dropdown-nav">
+                         <ul>
+                              <li class="studio-menu">
+                                   <a href="https://write.as/studio">
+                                        Studio
+                                        <img src="https://cdn.writeas.net/img/ic_down_arrow_dark@2x.png" alt="" class="arrow-icon">
+                                   </a>
+                                   <ul class="dropdown">
+                                        <li>
+                                             <a href="https://write.as/">
+                                                  <strong>
+                                                       Write.as
+                                                  </strong>
+                                                  <p>Start a minimal blog. Keep your privacy.</p>
+                                             </a>
+                                        </li>
+                                        <li>
+                                             <a href="https://snap.as/">
+                                                  <strong>
+                                                       Snap.as
+                                                  </strong>
+                                                  <p>Share beautifully simple photos and galleries.</p>
+                                             </a>
+                                        </li>
+                                        <li>
+                                             <a href="https://submit.as/">
+                                                  <strong>
+                                                       Submit.as
+                                                  </strong>
+                                                  <p>Accept writing submissions, no signup required.</p>
+                                             </a>
+                                        </li>
+                                        <li>
+                                             <a href="https://remark.as/">
+                                                  <strong>
+                                                       Remark.as
+                                                  </strong>
+                                                  <p>Start a conversation around your blog.</p>
+                                             </a>
+                                        </li>
+                                        <li class="foot">
+                                             The 
+                                             <a href="https://musing.studio">Musing Studio</a>
+                                              suite
+                                        </li>
+                                   </ul>
+                              </li>
+                         </ul>
+                    </div>
+               </div>
+               <div class="right-side">
+                    <a href="https://write.as/start">
+                         Start a blog
+                    </a>
+                    <a href="https://write.as/login" class="login">
+                         Log in
+                    </a>
+               </div>
+          </nav>
+          
+          <div id="official-writing">
+               <!--Heading-->
+               <div class="heading">
+                    <img src="https://cdn.writeas.net/img/writeas-logo.svg" alt="write.as">
+                    <div class="slogan">
+                         Type words, put them on the internet.
+                    </div>
+                    <div class="start-writing">
+                         <a href="https://write.as/new" class="start">
+                              Start writing
+                         </a>
+                         <p>
+                              Write an essay without signing up, 
+                              <br>
+                              or 
+                              <a href="https://write.as/start" class="signup">sign up</a> now.
+                         </p>
+                    </div>
+               </div>
+     
+               <!--Marketing section-->
+               <div class="content-container marketing-section snug clean">
+                    <hr>
+                    <!--WELCOME BACK TO THE INTERNET-->
+                    <h2> 
+                         Welcome back to the internet
+                    </h2>
+                    <p>
+                         The internet is for connecting with people. Write.as helps you reach them no matter where they live online.
+                    </p>
+                    <p>
+                         Friends and family can read your words without creating yet another account online. They can read in their browser, via email or RSS, on their e-reader, and on federated platforms like Mastodon.
+                    </p>
+                    <p class="bull" style="font-style: italic">
+                         Read more:
+                    </p>
+                    <p class="bull">
+                         <a href="/letters" target="letters">Starting a newsletter →</a>
+                    </p>
+                    <p class="bull">
+                         <a href="/extend/ebook-preview" target="ebook">Enabling eBook downloads →</a>
+                    </p>
+                    <p class="bull">
+                         <a href="https://howto.write.as/enabling-federation" target="fedi">Joining the fediverse →</a>
+                    </p>
+                    <p style="margin-bottom: 0">
+                         <a href="https://write.as/matt/" target="matt">
+                              <img src="https://i.snap.as/D1yn3zC.png" alt="A preview of a Write.as blog." style="max-width: 100%">
+                         </a>
+                    </p>
+                    <p style="text-align: right; font-size: 0.75em; margin: -1em 3em 3rem 0;">
+                         <a href="/matt/" >
+                              Read this blog →
+                         </a>
+                    </p>
+
+                    <!--FOCUS ON YOUR WORDS-->
+                    <h2>
+                         Focus on your words
+                    </h2>
+                    <p>
+                         Write.as is a pared-down blogging platform - a distraction-free place for you to write, and a clean space for your audience to read.
+                    </p>
+                    <p>
+                         Instead of content management, we focus on writing. You'll see our editor screen first, every time you open the app. You can write in Markdown or switch to our friendly Rich Text editor. Your work is automatically saved to your browser as you write.
+                    </p>
+                    <p style="margin-bottom: 0">
+                         <a href="https://write.as/new" target="new">
+                              <img src="https://i.snap.as/G9IGd8v.png" alt="A preview of a Write.as blog." style="max-width: 100%">
+                         </a>
+                    </p>
+                    <p style="text-align: right; font-size: 0.75em; margin: -1em 3em 3rem 0;">
+                         <a href="/matt/" >
+                              Try it out →
+                         </a>
+                    </p>
+
+                    <!--CLEARFIX-->
+                    <div class="clearfix blurbs">
+                         <div class="third big">
+                              <h3>
+                                   Made for writing
+                              </h3>
+                              <p>
+                                   Not complex websites, not e-commerce, not content management. Just writing.
+                              </p>
+                         </div>
+                         <div class="third big">
+                              <h3>
+                                   Easy publishing
+                              </h3>
+                              <p>
+                                   Press "Publish" to send your words to the web, social media, and subcribers.
+                              </p>
+                         </div>
+                         <div class="third big">
+                              <h3>
+                                   Ad-free
+                              </h3>
+                              <p>
+                                   You'll never see ads while you're focused on your work, and neither will your readers.
+                              </p>
+                         </div>
+                    </div>
+               </div>
+
+               <div id="features" class="content-container snug writing clean">
+                    <!--STAY INDEPENDENT--> 
+                    <h2>
+                         Stay independent
+                    </h2>
+                    <p>
+                         Build a home for your writing, outside of walled gardens and locked-down platforms.
+                    </p>
+                    <p>
+                         Add your domain name to keep control of your web presence. Make it your own with a custom theme. Then, know you're never stuck here — you can always export your work, or self-host your site with 
+                         <a href="https://writefreely.org/">
+                              WriteFreely
+                         </a>
+                         , the open source software that powers Write.as.
+                    </p>
+     
+                    <!--FREE YOUR THOUGHTS-->
+                    <h2>
+                         Free your thoughts 
+                    </h2>
+                    <p>
+                         Built entirely around 
+                         <a href="https://write.as/privacy">
+                              privacy
+                         </a>
+                         , we don't track you or gather excessive data, so you can write exactly what you feel.
+                    </p>
+                    <p>
+                         Create a professional blog next to one written under a pen name. Publicize your work, or keep it quiet. 
+                         <a href="https://write.as/new">
+                              Write anonymously
+                         </a>
+                         , or create as many 
+                         <a href="https://write.as/blog/identities">
+                              identities
+                         </a> 
+                         as you like. On Write.as, you have full control over who knows what about you.
+                    </p>
+                    <hr>
+               </div>
+          </div>
+
+          <!--BUILD A HOME FOR YOUR WRITING-->
+          <div class="content-container writing clean" style="margin-bottom: 0">
+               <h2>
+                    Build a home for your writing
+               </h2>
+               <p style="line-height: 1.8;">
+                    Write.as helps you create a blog, journal, or news letter that readers will love to read. Create a home for your words, then fill it with writing — by yourself or with others.
+               </p>
+          </div>
+
+          <!--PRO/ TEAM-->
+          <div class="content-container writing clean">
+
+               <hr>
+          </div>
+
+          <!--LEARN MORE ABOUT US-->
+          <div class="content-container snug writing clean">
+               <h2>
+                    Learn more about us
+               </h2>
+               <p>
+                    Write.as is part of 
+                    <a href="https://musing.studio/">
+                         Musing Studio
+                    </a>
+                    , a suite of simple tools for creating and sharing on the open web. You can also gather writing submissions with 
+                    <a href="https://submit.as/">
+                         Submit.as
+                    </a>
+                    , share photos with 
+                    <a href="https://snap.as/">
+                         Snap.as
+                    </a>
+                    , and socialize with 
+                    <a href="https://remark.as/">
+                         Remark.as
+                    </a>.
+               </p>
+               <p>
+                    Read about 
+                    <a href="https://write.as/about/company">
+                         our company
+                    </a> 
+                    and 
+                    <a href="https://write.as/principles">
+                         our principles
+                    </a>
+                    , and subscribe to 
+                    <a href="https://write.as/blog/">
+                         our blog
+                    </a>.
+               </p>
+               <hr>
+          </div>
+     </header>
+     <main>
+
+     </main>
+     <footer>
+
+     </footer>
+</body>
+</html>
