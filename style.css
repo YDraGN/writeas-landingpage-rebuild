@@ -136,12 +136,12 @@ div.heading a {
 div.heading a.signup:hover {
      text-decoration: underline;
 }
-div.heading a.start {
+a#cta {
      display: block;
      border: 1px solid #7278bf;
      background-color: #7278bf;
-     color: #fff;
      padding: .5em;
+     color: #ffff;
      font-family: 'Lora', serif;
      font-size: 1.25em;
      border-radius: 5px;
@@ -149,10 +149,10 @@ div.heading a.start {
      width: 100%;
      margin-bottom: 20px;
 }
-div.heading a.start:hover {
+a#cta:hover {
+     text-decoration: none;
      opacity: 0.7;
 }
-
 div.heading p {
      text-align: center;
      font-style: italic;
@@ -160,12 +160,12 @@ div.heading p {
 
 /*MARKETING SECTION*/
 div.content-container {
-     font-size: 1.15em;
+     font-size: 1.2em;
      margin: 0 auto 3em;
      max-width: 50em;
 }
-div.content-container .snug {
-     max-width: 50em;
+div.snug {
+     max-width: 40em;
 }
 div.content-container hr {
      height: 1px;
@@ -181,7 +181,7 @@ div.content-container p {
 }
 div.content-container h2 {
      margin-bottom: 0;
-     font-size: 1.98em;
+     font-size: 1.96em;
 }
 div.content-container p.bull {
      margin: 0.25rem 0;
@@ -199,6 +199,7 @@ div.clearfix {
      display: flex;
      flex-direction: row;
 }
+
 div.blurbs .third {
      padding: 0;
      font-size: 0.86em;
@@ -223,6 +224,102 @@ div.blurbs .big p {
      color: #595959;
      text-align: left;
 }
+
 div.writing h2 {
      margin-top: 2em;
+}
+div.row {
+     display: flex;
+     flex-direction: row;
+}
+div.half {
+     max-width: calc(50% - 40px);
+     width: 100%;
+}
+div.price h3 {
+     font-weight: 900;
+}
+div.price p {
+     color: #595959;
+     font-size: 0.8em;
+}
+div.price p strong {
+     color: black;
+     font-size: 1.5em;
+}
+ul.features {
+     list-style-type: none;
+     margin: 1em auto 2em;
+     padding: 0 2em 0 1em;
+     line-height: 1.5;
+     font-family: Open Sans, sans-srif;
+}
+.features li {
+     margin: 12px 0px;
+}
+.features li::before {
+     content: "\2713"; /* hoặc "\2713" là mã unicode */
+     color: rgb(17, 177, 17);
+     display: inline-block;
+     margin-right: 8px;
+}
+p.btn-desc {
+     margin: 1.5rem 0 0 !important;
+     font-size: 0.86em !important;
+     color: #666;
+}
+#pricing-lists p.btn-desc {
+     font-size: 0.75em !important;
+}
+div.half hr {
+    margin: auto;
+}
+footer.contain-me {
+     margin: 0 auto 4em;
+     max-width: 60em;
+     text-align: left;
+     font-family: Lora, serif;
+     font-size: .85em;
+}
+.contain-me hr {
+     margin: auto;
+     margin: 70px 42px;
+}
+footer a {
+     text-decoration: none;
+}
+footer ul {
+     list-style: none;
+     padding: 0;
+}
+footer li {
+     line-height: 1.5;
+     margin-top: 15px;
+}
+footer h3 {
+     font-weight: bold;
+     color: black;
+}
+footer h3 a {
+     font-weight: bold;
+     color: black;
+}
+footer li a {
+     color: #999;
+}
+div.fourth {
+     flex: 1 1 25%;
+}
+div.fourth li.icons {
+     display: flex;
+     flex-direction: row;
+}
+.icons a img {
+     height: 1em;
+     width: fit-content;
+     margin-right: 12px;
+}
+.made-in-bk {
+     color: #666;
+     margin-top: 30px;
 }
